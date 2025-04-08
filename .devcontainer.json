@@ -1,8 +1,0 @@
-{
-  "build": {
-    "dockerfile": "Dockerfile",
-    "context": "."
-  },
-  "forwardPorts": [8080],
-  "postCreateCommand": "echo 'Tomcat will auto-start from CMD in Dockerfile'"
-}
